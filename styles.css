@@ -613,6 +613,9 @@ footer{
 
 
 @media (max-width: 480px) {
+    body{
+        max-width: 480px;
+    }
     header{
         display: none;
     }
@@ -621,6 +624,23 @@ footer{
     }
     .xx{
         display: none;
+    }
+    .hero{
+        padding: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-text p{
+        font-size: 12px;
+    }
+    .hero-btns{
+        gap: 10px;
+    }
+    .hero-btns button{
+        height: 27px;
+        width: 100px;
+        font-size: 10px;
     }
     #about{
         display: none;

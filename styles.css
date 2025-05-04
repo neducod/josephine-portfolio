@@ -447,6 +447,10 @@ nav h1 a{
     margin-right: 140px;
     justify-content: center;
     align-items: center;
+
+    max-width: 90%;
+    padding: 2rem;
+    margin: 4rem auto;
 }
 .skillstack-a{
     display: flex;
@@ -607,47 +611,36 @@ footer{
 
 
 
-  
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 480px) {
     header{
         display: none;
     }
-    nav{
+    .x{
         display: none;
     }
-    .hero{
-        padding-left: 320px;
+    .xx{
+        display: none;
     }
     #about{
-        margin-top: 40px;
+        display: none;
     }
-    #about h4{
-        text-align: center;
-        padding-left: 200px;
-    }
-    .about{
-        display: flex;
-        gap: 1px;
-    }
-    .first-section{
-        margin-bottom: 16px;
-    }
-    #first-section-a{
-        margin-left: 390px;
-        width: 300px;
-        height: 170px;
-        margin-top: 40px;
-    }
-    #first-section-b{
-        width: 430px;
-        padding: 40px;
-        margin-right: 30px;
+    #projects{
+        display: none;
     }
     #skillstack{
-       padding-left: 0; 
-        width: 600px;
-        margin-left: 250px;
-
+        display: none;
     }
-}
+    footer{
+        display: none;
+    }
+} 
+
+
+
+
+
+
+
+
+

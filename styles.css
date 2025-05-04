@@ -643,6 +643,52 @@ footer{
         font-size: 10px;
     }
     #about{
+        margin-top: 30px;
+        /* display: none; */
+    }
+    #about h4{
+        font-size: 23px;
+        padding: 10px;
+    }
+    .about {
+        gap: 20px;
+    }
+    .about-text{
+        max-width: 420px;
+    }
+    .first-section{
+        max-width: 400px;
+        height: 200px;
+    }
+    #first-section-a{
+        margin-top: 20px;
+        margin-left: 0px;
+        padding: 1px;
+        width: 300px;
+    }
+    #first-section-b{
+        margin-right: 1px;
+        padding: 30px;
+        width: 300px;
+    }
+    #first-section-b h1{
+        font-size: 20px;
+    }
+    #first-section-b p{
+        font-size: 11px;
+    }
+    #first-section-c{
+        margin-left: 2px;
+        padding: 10px;
+        width: 300px;
+    }
+    #first-section-c h1{
+        font-size: 20px;
+    }
+    .first-sectionn{
+        flex-direction: row;
+    }
+    .w-48{
         display: none;
     }
     #projects{

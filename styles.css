@@ -667,24 +667,25 @@ footer{
         height: 200px;
     }
     #first-section-a{
-        margin-top: 20px;
-        margin-left: 0px;
+     /*   margin-top: 20px;
+        margin-left: none;*/
+        margin: none;
         padding: 1px;
         width: 300px;
     }
     #first-section-b{
-        margin-right: 1px;
-        padding: 30px;
+        margin-right: none;
+        padding: 20px; 
         width: 300px;
     }
     #first-section-b h1{
         font-size: 20px;
     }
     #first-section-b p{
-        font-size: 11px;
+        font-size: 10px;
     }
     #first-section-c{
-        margin-left: 2px;
+        margin-left: none;
         padding: 10px;
         width: 300px;
     }

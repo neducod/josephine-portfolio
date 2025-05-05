@@ -411,10 +411,11 @@ nav h1 a{
   }
 #skillstack{
     gap: 40px;
-     padding-left: 100px; 
+    /* padding-left: 100px;  */
     margin-top: 100px;
     margin-bottom: 100px;
-    width: 850px;
+    width: 90%;
+    max-width: 850px;
     height: 500px;
     place-self: center;
     /* background-color: #C1F8CF; */
@@ -426,14 +427,14 @@ nav h1 a{
 #skillstack h2{
     text-align: center;
     margin-top: 40px; 
-    margin-right: 140px;
+    /* margin-right: 140px; */
     font-family: "Patrick Hand SC", cursive;
     font-weight: 400;
     font-style: normal;
 }
 #skillstack p{
     text-align: center;
-    margin-right: 110px;
+    /* margin-right: 110px; */
     font-family: "Baloo 2", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -443,12 +444,14 @@ nav h1 a{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-top: 95px;
-    margin-right: 140px;
+    /* margin-top: 95px; */
+    /* margin-right: 140px; */
     justify-content: center;
     align-items: center;
 
-    max-width: 90%;
+    /* max-width: 90%; */
+    width: 100%;
+    box-sizing: border-box;
     padding: 2rem;
     margin: 4rem auto;
 }
@@ -696,21 +699,15 @@ footer{
     }
     /* #projects{ */
         /* display:; */
-    /* } */
-    #skillstack{
-        padding-left: none;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        width: 250px;
-        height: 300px;
-    }
+    /* } *//*
+    #skillstack {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        gap: 20px;
+      }
     .skillstack{
-        margin-top: 0px;
-        margin-right: none;
-        max-width: 0%;
-        padding: 0px;
-        margin: 0px;
-    }
+       
+    }*/
     footer{
         display: none;
     }

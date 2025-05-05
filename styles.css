@@ -690,6 +690,7 @@ footer{
     }
     .w-48{
         display: none;
+        display: block;
     }
     #projects{
         display: none;

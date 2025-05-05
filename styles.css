@@ -691,6 +691,9 @@ footer{
     .first-sectionn{
         flex-direction: row;
     }
+    .first-sectionn p{
+        font-size: 10px;
+    }
     #projects{
         display: none;
     }

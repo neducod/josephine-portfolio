@@ -625,6 +625,9 @@ footer{
     .xx{
         display: none;
     }
+    .w-48{
+        display: none;
+    }
     .hero{
         padding: 0px;
         display: flex;
@@ -687,10 +690,6 @@ footer{
     }
     .first-sectionn{
         flex-direction: row;
-    }
-    .w-48{
-        display: none;
-        display: block;
     }
     #projects{
         display: none;

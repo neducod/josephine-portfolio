@@ -708,5 +708,9 @@ footer{
 
 
 
-
-
+@media (max-width: 768px) {
+    .w-48{
+        display: none;
+    }
+     
+}  

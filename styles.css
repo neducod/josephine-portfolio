@@ -633,7 +633,7 @@ footer{
     .nav-h h1 a{
         font-size: 0.8rem;
     }
-    .x{
+    .xx{
         display: none;
     }
     .xx{
@@ -740,7 +740,7 @@ footer{
         flex-direction: row;
         position: absolute;
         top: 70px;
-        background-color: palevioletred;
+        background-color: rgb(224, 166, 185);
         right: 20px;
         width: 200px;
         padding: 1rem;
@@ -757,5 +757,30 @@ footer{
     }
     .hamburger{
         display: block;
+    }
+    #about{
+        display: none;
+    }
+}
+@media (min-width: 711px) and (max-width: 783px) {
+    nav{
+        gap: 280px;
+    }
+    #about{
+        display: none;
+    }
+}
+@media (min-width: 784px) and (max-width: 796px) {
+    nav{
+        gap: 140px;
+    }
+    #about{
+        display: none;
+    }
+}
+
+@media (min-width: 797px) and (max-width: 848px){
+    #about{
+        display: none;
     }
 }

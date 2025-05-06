@@ -627,10 +627,11 @@ footer{
         padding: 20px 10px;
     }
     nav{
-        gap: 250px;
+        gap: 200px;
+         /* gap: 250px;  */
     }
     .nav-h h1 a{
-        font-size: 13px;
+        font-size: 0.8rem;
     }
     .x{
         display: none;

@@ -613,14 +613,18 @@ footer{
   }
 
 
-
+  .hamburger{
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
 
 @media (max-width: 480px) {
     body{
         max-width: 480px;
     }
-    header{
-        display: none;
+    header {
+        padding: 20px 10px;
     }
     .x{
         display: none;
@@ -667,11 +671,16 @@ footer{
         height: 200px;
     }
     #first-section-a{
-     /*   margin-top: 20px;
-        margin-left: none;*/
-        margin: none;
+       /* margin: none;
         padding: 1px;
-        width: 300px;
+        width: 300px;*/
+
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 15px;
+        width: 90%;
+        box-sizing: border-box;
     }
     #first-section-b{
         margin-right: none;
@@ -698,31 +707,48 @@ footer{
     .first-sectionn p{
         font-size: 10px;
     }
-    /* #projects{ */
-        /* display:; */
-    /* } *//*
-    #skillstack {
-        margin-top: 50px;
-        margin-bottom: 50px;
-        gap: 20px;
-      }
-    .skillstack{
-       
-    }*/
     footer{
-        display: none;
+        display: block;
+        /* padding: 5px 5px; */
+    }
+    #footer-icons{
+        gap: 2px;
+    }
+    #footer-icons h4, p{
+        font-size: 10px;
+        /* margin-top: 5px; */
+    }
+    .social-icons{
+        font-size: 5px;
     }
 } 
 
 
-
-
-
-
-
 @media (max-width: 768px) {
-    .w-48{
-        display: none;
+    header {
+        padding: 30px 20px;
     }
-     
-}  
+    #nav-links{
+        display: none;
+        flex-direction: row;
+        position: absolute;
+        top: 70px;
+        background-color: palevioletred;
+        right: 20px;
+        width: 200px;
+        padding: 1rem;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    #nav-links ul{
+        flex-direction: column;
+    }
+    #nav-links ul li{
+        flex-direction: column;
+    }
+    #nav-links.show{
+        display: flex;
+    }
+    .hamburger{
+        display: block;
+    }
+}

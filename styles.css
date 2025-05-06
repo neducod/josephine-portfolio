@@ -626,8 +626,11 @@ footer{
     header {
         padding: 20px 10px;
     }
+    nav{
+        gap: 250px;
+    }
     .nav-h h1 a{
-        font-size: 10px;
+        font-size: 13px;
     }
     .x{
         display: none;

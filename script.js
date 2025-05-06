@@ -6,7 +6,7 @@ gsap.from(".box", {
   });  
 
 
-/*POP UP CODE
+//POP UP CODE
   window.onload = function () {
     const popup = document.getElementById('popup');
     popup.style.display = 'flex';
@@ -15,7 +15,7 @@ gsap.from(".box", {
     setTimeout(() => {
       popup.style.display = 'none';
     }, 5000);
-  };*/
+  };
 
 //NAVBAR RESPONSIVE
 

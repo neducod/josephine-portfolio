@@ -42,7 +42,7 @@ nav{
 #nav-links ul li a:hover{
     text-decoration: underline;
 }
-nav h1{
+.nav-h h1{
     font-size: 17px;
     font-style: italic;
 
@@ -52,7 +52,7 @@ nav h1{
         font-style: normal;
     
 }
-nav h1 a{
+.nav-h h1 a{
     font-size: 17px;
     font-style: italic;
     text-decoration: none;
@@ -626,6 +626,9 @@ footer{
     header {
         padding: 20px 10px;
     }
+    .nav-h h1 a{
+        font-size: 10px;
+    }
     .x{
         display: none;
     }
@@ -653,8 +656,8 @@ footer{
         font-size: 10px;
     }
     #about{
-        margin-top: 30px;
-        /* display: none; */
+        /* margin-top: 30px; */
+        display: none; 
     }
     #about h4{
         font-size: 23px;

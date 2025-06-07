@@ -128,6 +128,9 @@ nav{
     position: relative;
     z-index: 3;
 }
+#web-dev-img{
+    width: 200px;
+}
 .hero-two{
     gap: 20px;
     display: flex;

@@ -323,11 +323,6 @@ nav{
     box-shadow: 4px 4px var(--main-color);
 }
 .formm{
-
-
-
-
-
     --font-color: #323232;
     --font-color-sub: #666;
     --bg-color: beige;
@@ -375,9 +370,12 @@ nav{
 .prev:hover, .next:hover {
     background-color: rgba(248, 214, 244, 0.8);
   }
-.mySlides{
+.mySlides1{
     display: none;
     object-fit: contain;
+}
+.mySlides2{
+    display: none;
 }
 .trying{
     width: 200px;

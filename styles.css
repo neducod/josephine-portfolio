@@ -342,6 +342,12 @@ nav{
   margin: auto;
   width: 250px;
 }
+#slideshow-containerr{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    width: 250px; 
+}
 .prev, .next {
     cursor: pointer;
     position: absolute;

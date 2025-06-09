@@ -323,6 +323,11 @@ nav{
     box-shadow: 4px 4px var(--main-color);
 }
 .formm{
+
+
+
+
+
     --font-color: #323232;
     --font-color-sub: #666;
     --bg-color: beige;
@@ -335,6 +340,7 @@ nav{
     max-width: 1000px;
   position: relative;
   margin: auto;
+  width: 250px;
 }
 .prev, .next {
     cursor: pointer;
@@ -363,6 +369,8 @@ nav{
   }
 .mySlides{
     display: none;
+    object-fit: contain;
+    width: 50px;
 }
 .try p a{
     color: black;

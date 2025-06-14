@@ -343,6 +343,15 @@ nav{
     margin: auto;
     width: 250px; 
 }
+#slideshow-containerrr{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    width: 250px; 
+
+    height: 400px;
+
+}
 .prev, .next {
     cursor: pointer;
     position: absolute;
@@ -376,6 +385,14 @@ nav{
 }
 .mySlides2{
     display: none;
+}
+.mySlides3{
+    text-align: center;
+    display: none;
+    position: absolute;
+}
+.fade{
+    width: 230px;
 }
 .trying{
     width: 200px;

@@ -330,6 +330,11 @@ nav{
     padding: 20px;
     background: rgb(224, 166, 185);
     border: 2px solid var(--main-color); 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 #slideshow-container{
     max-width: 1000px;
@@ -349,7 +354,7 @@ nav{
     margin: auto;
     width: 250px; 
 
-    height: 400px;
+    height: 200px;
 
 }
 .prev, .next {
@@ -392,7 +397,8 @@ nav{
     position: absolute;
 }
 .fade{
-    width: 230px;
+    width: 190px;
+    place-self: center;
 }
 .trying{
     width: 200px;

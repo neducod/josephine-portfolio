@@ -27,8 +27,11 @@ hamburger.addEventListener('click', () => {
 });
 
 
+
+
+/*
 let slideIndex = [1,1];
-/* Class the members of each slideshow group with different CSS classes */
+/* Class the members of each slideshow group with different CSS classes 
 let slideId = ["mySlides1", "mySlides2"]
 showSlides(1, 0);
 showSlides(1, 1);
@@ -47,3 +50,51 @@ function showSlides(n, no) {
   }
   x[slideIndex[no]-1].style.display = "block";
 }
+
+
+
+
+let slideIndex3 = 0;
+showSlides3(slideIndex3);
+
+function plusSlides(n) {
+  showSlides3(slideIndex3 += n);
+}
+
+function showSlides3(n) {
+  let slides = document.getElementsByClassName("mySlides3");
+  if (n >= slides.length) slideIndex3 = 0;
+  if (n < 0) slideIndex3 = slides.length - 1;
+
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  slides[slideIndex3].style.display = "block";
+}
+*/
+
+let slideIndices = [0,0,0];
+
+function plusSlides(n, slideshowIndex) {
+  showSlides(slideIndices[slideshowIndex] += n, slideshowIndex);
+}
+
+function showSlides(n, slideshowIndex) {
+  const slideClassNames = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"];
+  const slides = document.getElementsByClassName(slideClassNames[slideshowIndex]);
+
+  if (n >= slides.length) slideIndices[slideshowIndex] = 0;
+  if (n < 0) slideIndices[slideshowIndex] = slides.length - 1;
+
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+
+  slides[slideIndices[slideshowIndex]].style.display = "block";
+}
+
+
+showSlides(0, 0);
+showSlides(0, 1);
+showSlides(0, 2);

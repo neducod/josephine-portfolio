@@ -703,6 +703,9 @@ footer{
     .nav-h h1 a{
         font-size: 0.8rem;
     }
+    #aboutt{
+        display: none;
+    }
     .xx{
         display: none;
     }

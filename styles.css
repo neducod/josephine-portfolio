@@ -5,7 +5,12 @@
 :root{
     --base-color:  rgb(252, 208, 215);
     --text-color: black;
-    /* --base-variant: rgb(248, 241, 241); */
+    --base-variant: rgb(221, 161, 170);
+    --linear-variant: rgb(255, 192, 203);
+    --secondli-variant: rgb(146, 229, 237);
+    --form-color: rgb(173, 216, 230);
+    --form-two: rgb(224, 166, 185);
+    --main-color: black; 
 }
 body{
     /* background-color: rgb(252, 208, 215); */
@@ -14,6 +19,12 @@ body{
 .darkmode{
     --base-color: #000000;
     --text-color: rgb(255, 255, 255);
+    --base-variant: rgb(139, 26, 49);
+    --linear-variant: rgb(139, 66, 76);  
+    --secondli-variant: rgb(90, 240, 255);
+    --form-color: rgb(25, 50, 90);
+    --form-two: rgb(0, 0, 0);
+    --main-color: rgb(255, 255, 255);
 }
 
 #theme-switch{
@@ -274,10 +285,8 @@ nav{
     padding: 5px;
     border: 2px solid black;
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
-    background-image: linear-gradient(144deg, #dda1aa, #ffc0cb 50%, #92e5ed);
+    background-image: linear-gradient(144deg, var(--base-variant), var(--linear-variant) 50%, rgb(146, 229, 237));
     margin-bottom: 60px;
-    /* #00DDEB
-    #a8d7da */
 }
 .first-section p{
    /* font-family: "Baloo 2", sans-serif;
@@ -345,13 +354,13 @@ nav{
 .form {
     width: 300px;
     height: 350px;
-    --input-focus: #2d8cf0;
+    /* --input-focus: #2d8cf0; */
     --font-color: #323232;
     --font-color-sub: #666;
     --bg-color: beige;
     --main-color: black;
     padding: 20px;
-    background: lightblue; 
+    background: var(--form-color); 
     /* background-color: rgb(221, 161, 171); */
     display: flex;
     flex-direction: column;
@@ -367,10 +376,10 @@ nav{
     --font-color: #323232;
     --font-color-sub: #666;
     --bg-color: beige;
-    --main-color: black;
+    /* --main-color: black;  */
     padding: 20px;
-    background: rgb(224, 166, 185);
-    border: 2px solid var(--main-color); 
+    background: var(--form-two);
+    border: 2px solid var(--main-color);  
     
     display: flex;
     justify-content: center;

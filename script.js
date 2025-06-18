@@ -98,3 +98,47 @@ function showSlides(n, slideshowIndex) {
 showSlides(0, 0);
 showSlides(0, 1);
 showSlides(0, 2);
+
+
+
+
+
+//CODE FOR TOGGLE SWITCH
+
+//FIRST OFF YOU SAVE DARKMODE LOCALLY
+let darkmode = localStorage.getItem('darkmode');
+
+//THEN YOU CALL THE THEME SWITCH BUTTON
+const themeswitch = document.getElementById("theme-switch");
+
+//NEXT WE WOULD DEFINE BOTH FUNCTIONS
+const enableDarkmode = () => {
+    document.body.classList.add('darkmode')
+    localStorage.setItem('darkmode', 'active');
+}
+
+const disableDarkmode = () => {
+    document.body.classList.remove('darkmode')
+    localStorage.setItem('darkmode', 'null');
+}
+
+//This will enable the darktheme if it is stored in the local storage
+if(darkmode === "active") enableDarkmode()
+
+
+//YOU GIVE IT AN EVENT LISTENER
+themeswitch.addEventListener("click", () => {
+   /* if(darkmode != "active"){
+    enableDarkmode();
+    else{
+       disableDarkmode() 
+    }
+   } you would then use an if statement */
+
+   //But we also need to get the info form inside the event listener
+   darkmode = localStorage.getItem('darkmode')
+   darkmode !== "active" ? enableDarkmode() : disableDarkmode()
+
+   //NEXT WE WOULD DEFINE BOTH FUNCTIONS
+
+});

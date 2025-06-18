@@ -11,6 +11,9 @@
     --form-color: rgb(173, 216, 230);
     --form-two: rgb(224, 166, 185);
     --main-color: black; 
+    --skill-stack: rgb(221, 161, 171);
+    --about-section: rgb(249, 235, 235);  
+    --hero-text:  #ffc0cb; 
 }
 body{
     /* background-color: rgb(252, 208, 215); */
@@ -25,6 +28,9 @@ body{
     --form-color: rgb(25, 50, 90);
     --form-two: rgb(0, 0, 0);
     --main-color: rgb(255, 255, 254);
+    --skill-stack: rgb(25, 50, 90);
+    --about-section: rgb(50, 11, 11);
+    --hero-text: rgb(25, 50, 90);
 }
 
 #theme-switch{
@@ -144,7 +150,8 @@ nav{
     left: -2px;
     width: calc(100% + 4px);
     height: calc(100% - -2px);
-    background-color: #ffc0cb;
+    /* background-color: #ffc0cb; */
+    background-color: var(--hero-text);
     transition: 0.3s ease-out;
     transform: scaleY(1);
 }
@@ -235,13 +242,14 @@ nav{
     width: 170px;
     height: 42px;
     border: 1px solid #2c0404;
-    background-color: pink;
+    background-color: var(--skill-stack);
     color: #2c0404;
     border-radius: 14px;
     transition: 0.5;
 }
 .hero-btns button:hover{
-    background-color: #dda1aa;
+    /* background-color: #dda1aa; */
+    background-color: var(--form-color);
     border: 1px solid white;
     color: var(--text-color);;
 }
@@ -275,7 +283,8 @@ nav{
     display: grid;
     place-items: center;
     /* background-color: #ffe0f0; */
-     background-color: rgb(249, 235, 235); 
+     /* background-color: rgb(249, 235, 235);  */
+    background-color: var(--about-section);
 }
 .first-section{
     padding: 50px;
@@ -572,8 +581,7 @@ nav{
     max-width: 850px;
     height: 500px;
     place-self: center;
-    /* background-color: #C1F8CF; */
-    background-color: #dda1ab;
+    background-color: var(--skill-stack);
     --main-color: black;
     border: 5px solid var(--main-color);
     box-shadow: 4px 4px var(--main-color);

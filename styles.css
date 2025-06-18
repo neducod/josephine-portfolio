@@ -24,7 +24,7 @@ body{
     --secondli-variant: rgb(90, 240, 255);
     --form-color: rgb(25, 50, 90);
     --form-two: rgb(0, 0, 0);
-    --main-color: rgb(255, 255, 255);
+    --main-color: rgb(255, 255, 254);
 }
 
 #theme-switch{

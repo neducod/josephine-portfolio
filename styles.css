@@ -14,6 +14,11 @@
     --skill-stack: rgb(221, 161, 171);
     --about-section: rgb(249, 235, 235);  
     --hero-text:  #ffc0cb; 
+    --footer-color: rgb(249, 235, 235);
+    --hash-node: pink;
+    --black-pink: pink;
+    /* --header-boxshadow: rgba(0, 0, 0.6); */
+    --header-color: rgb(249, 235, 235);
 }
 body{
     /* background-color: rgb(252, 208, 215); */
@@ -29,8 +34,14 @@ body{
     --form-two: rgb(0, 0, 0);
     --main-color: rgb(255, 255, 254);
     --skill-stack: rgb(25, 50, 90);
-    --about-section: rgb(50, 11, 11);
+    /* --about-section: rgb(50, 11, 11); */
+    --about-section: rgb(25, 50, 90);
     --hero-text: rgb(25, 50, 90);
+    --footer-color: rgb(13, 13, 14);
+    --hash-node: rgb(25, 50, 90);
+    --black-pink: rgb(143, 142, 142);
+    --header-boxshadow: white;
+    --header-color: rgb(13, 13, 14);
 }
 
 #theme-switch{
@@ -38,7 +49,7 @@ body{
     width: 50px;*/
     padding: 0;
     border-radius: 50%;
-    background-color: var(--base-variant);
+    background-color: var(--black-pink);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,15 +69,17 @@ body{
     display: block;
 }
 header{
-    /* padding: 20px 80px; */
     padding: 40px 40px;
+    /* box-shadow: 0 5px 15px var(--header-boxshadow); */
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
     z-index: 999;
     position: sticky;
     top: 0;
     left: 0;
-    background-color: rgb(249, 235, 235);
-    border-bottom: 1px solid #000000;
+    /* background-color: rgb(249, 235, 235);  */
+    background-color: var(--header-color);
+    /* border-bottom: 1px solid var(--text-color); */
+    border-bottom: 1px solid black;
 }
 nav{
     display: flex;
@@ -84,8 +97,8 @@ nav{
 }
 #nav-links ul li a{
     font-size: 14px;
-    color: black;
-    /* color: var(--text-color); */
+    /* color: black; */
+    color: var(--text-color); 
     text-decoration: none;
 
     font-family: "Patrick Hand SC", cursive;
@@ -97,6 +110,7 @@ nav{
 }
 .nav-h h1{
     font-size: 17px;
+    color: var(--text-color); 
     font-style: italic;
 
         font-family: "Noto Sans JP", sans-serif;
@@ -109,8 +123,8 @@ nav{
     font-size: 17px;
     font-style: italic;
     text-decoration: none;
-    /* color: var(--text-color); */
-    color: black;
+    color: var(--text-color);
+    /* color: black; */
 }
 .hero{
     padding: 80px;
@@ -628,7 +642,8 @@ nav{
 }        
 footer{
     padding: 30px 40px;
-    background-color: rgb(249, 235, 235);
+    /* background-color: rgb(249, 235, 235); */
+    background-color: var(--footer-color);
 }
 #footer-icons{
     display: flex;
@@ -638,6 +653,7 @@ footer{
 #footer-icons h4, p{
     margin-top: 20px;
     font-family: "Patrick Hand SC", cursive;
+    color: var(--text-color);
     font-weight: 400;
     font-style: normal;
 
@@ -658,8 +674,6 @@ footer{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    /* width: 48px; */
-    /* height: 48px; */
 }
 .social-icon:hover {
     background-color: #1da1f2; /* Default hover (can be overridden below) */
@@ -674,11 +688,11 @@ footer{
 }
 
 .hashnode:hover {
-    /* background-color: #2962ff; */
-    background-color: pink;
+    background-color: var(--hash-node);
 }
 .fab{
-    color: rgb(22, 21, 21);
+    color: var(--text-color);
+    /* color: rgb(22, 21, 21); */
 }
 .fab:hover{
     color: pink;
@@ -689,7 +703,8 @@ footer{
     padding-bottom: 20px;
 }
 .footer-p a{
-    color: black;
+    color: var(--text-color);
+    /* color: black; */
     text-decoration: none;
     transition: 0.3 ease;
 }

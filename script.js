@@ -142,3 +142,29 @@ themeswitch.addEventListener("click", () => {
    //NEXT WE WOULD DEFINE BOTH FUNCTIONS
 
 });
+
+
+
+
+//JAVSCRIPT FOR THE GSAP ANIMATION
+gsap.registerPlugin(ScrollTrigger);
+
+    // Animate .box on scroll
+    gsap.from(".box", {
+      scrollTrigger: {
+        trigger: ".box",
+        start: "top 80%",  // when top of .box hits 80% of viewport
+        toggleActions: "play none none reverse"
+      },
+      y: 100,
+      opacity: 0,
+      duration: 1,
+      ease: "power2.out"
+    });
+    
+    gsap.from(".fade-in", {
+      scrollTrigger: ".fade-in",
+      opacity: 0,
+      duration: 1
+    });
+    

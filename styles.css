@@ -851,7 +851,7 @@ footer{
         flex-direction: column;
     }
     #web-dev-img{
-        display: block;
+        /* display: block; */
         /* width: 100%; */
         /* width: 20px; */
     }

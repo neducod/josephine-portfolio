@@ -161,9 +161,25 @@ gsap.registerPlugin(ScrollTrigger);
       duration: 1,
       ease: "power2.out"
     });
-    
-    gsap.from(".fade-in", {
+
+    gsap.from(".footer-p", {
       scrollTrigger: ".fade-in",
+      opacity: 0,
+      duration: 2
+    });
+    
+    gsap.from(".first-section", {
+      scrollTrigger: ".slide-right",
+      x: 100,
+      opacity: 0,
+      duration: 3,
+      ease: "power2.out"
+    });
+    
+
+    gsap.from(".dp", {
+      scrollTrigger: ".zoom-in",
+      scale: 0.5,
       opacity: 0,
       duration: 1
     });

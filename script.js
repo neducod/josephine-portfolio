@@ -184,3 +184,7 @@ gsap.registerPlugin(ScrollTrigger);
       duration: 1
     });
     
+
+
+//INITIALIZE AOS
+AOS.init();

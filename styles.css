@@ -3,6 +3,45 @@
     margin: 0;
 }
 :root{
+    --base-color: #000000;
+    --text-color: rgb(255, 255, 255);
+    --base-variant: rgb(139, 26, 49);
+    --linear-variant: rgb(139, 66, 76);  
+    --secondli-variant: rgb(90, 240, 255);
+    --form-color: rgb(25, 50, 90);
+    --form-two: rgb(0, 0, 0);
+    --main-color: rgb(255, 255, 254);
+    --skill-stack: rgb(25, 50, 90);
+    --about-section: rgb(25, 50, 90);
+    --hero-text: rgb(25, 50, 90);
+    --footer-color: rgb(13, 13, 14);
+    --hash-node: rgb(25, 50, 90);
+    --black-pink: rgb(143, 142, 142);
+    --header-boxshadow: white;
+    --header-color: rgb(13, 13, 14);
+    /*
+    --base-color:  rgb(252, 208, 215);
+    --text-color: black;
+    --base-variant: rgb(221, 161, 170);
+    --linear-variant: rgb(255, 192, 203);
+    --secondli-variant: rgb(146, 229, 237);
+    --form-color: rgb(173, 216, 230);
+    --form-two: rgb(224, 166, 185);
+    --main-color: black; 
+    --skill-stack: rgb(221, 161, 171);
+    --about-section: rgb(249, 235, 235);  
+    --hero-text:  #ffc0cb; 
+    --footer-color: rgb(249, 235, 235);
+    --hash-node: pink;
+    --black-pink: pink;
+    --header-color: rgb(249, 235, 235);
+    /* --header-boxshadow: rgba(0, 0, 0.6); */
+}
+body{
+    /* background-color: rgb(252, 208, 215); */
+    background-color: var(--base-color);
+}
+.darkmode{
     --base-color:  rgb(252, 208, 215);
     --text-color: black;
     --base-variant: rgb(221, 161, 170);
@@ -19,12 +58,7 @@
     --black-pink: pink;
     /* --header-boxshadow: rgba(0, 0, 0.6); */
     --header-color: rgb(249, 235, 235);
-}
-body{
-    /* background-color: rgb(252, 208, 215); */
-    background-color: var(--base-color);
-}
-.darkmode{
+    /*
     --base-color: #000000;
     --text-color: rgb(255, 255, 255);
     --base-variant: rgb(139, 26, 49);
@@ -34,14 +68,13 @@ body{
     --form-two: rgb(0, 0, 0);
     --main-color: rgb(255, 255, 254);
     --skill-stack: rgb(25, 50, 90);
-    /* --about-section: rgb(50, 11, 11); */
     --about-section: rgb(25, 50, 90);
     --hero-text: rgb(25, 50, 90);
     --footer-color: rgb(13, 13, 14);
     --hash-node: rgb(25, 50, 90);
     --black-pink: rgb(143, 142, 142);
     --header-boxshadow: white;
-    --header-color: rgb(13, 13, 14);
+    --header-color: rgb(13, 13, 14);*/
 }
 
 #theme-switch{

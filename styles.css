@@ -231,7 +231,24 @@ nav{
     position: relative;
     z-index: 3;
 }
+.dp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dp img:last-child{
+    display: none;
+}
+.darkmode .dp img:first-child{
+    display: none;
+}
+.darkmode .dp img:last-child{
+    display: block;
+}
 #web-dev-img{
+    width: 200px;
+}
+#web-dev-imgg{
     width: 200px;
 }
 .hero-two{

@@ -641,12 +641,13 @@ nav{
   }
 #skillstack{
     gap: 40px;
-    /* padding-left: 100px;  */
     margin-top: 100px;
     margin-bottom: 100px;
-    width: 90%;
+    width: 80%;
     max-width: 850px;
-    height: 500px;
+    /* height: 500px; */
+    /* display: grid; */
+    /* grid-template-columns: repeat(1fr, 300px); */
     place-self: center;
     background-color: var(--skill-stack);
     --main-color: black;
@@ -656,7 +657,6 @@ nav{
 #skillstack h2{
     text-align: center;
     margin-top: 40px; 
-    /* margin-right: 140px; */
     font-family: "Patrick Hand SC", cursive;
     font-weight: 400;
     color: var(--text-color);
@@ -664,7 +664,6 @@ nav{
 }
 #skillstack p{
     text-align: center;
-    /* margin-right: 110px; */
     font-family: "Baloo 2", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
@@ -672,24 +671,24 @@ nav{
     color: var(--text-color);
 }
 .skillstack{
-    display: flex;
+    display: grid;
+    gap: 15px;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    /*display: flex;
     flex-direction: column;
     gap: 30px;
-    /* margin-top: 95px; */
-    /* margin-right: 140px; */
     justify-content: center;
     align-items: center;
-
-    /* max-width: 90%; */
     width: 100%;
     box-sizing: border-box;
     padding: 2rem;
-    margin: 4rem auto;
-}
+    margin: 4rem auto;*/
+}/*
 .skillstack-a{
     display: flex;
     gap: 4px;
-}
+}*/
 #form{
     display: flex;
 }        
@@ -1046,15 +1045,15 @@ footer{
 
 
 .about-mobile{
-    /* width: 870px; */
     margin: 40px;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     place-items: center;
     justify-content: center;
     align-items: center;
     place-self: center;
     gap: 20px;
-    /* background-color: var(--about-section); */
 }
 .about-mobile h4{
     font-family: "Noto Sans JP", sans-serif;
@@ -1064,6 +1063,10 @@ footer{
     color: var(--text-color);
 }
 .about-mobile-a{
+    flex: 1;
+    align-items: stretch;
+    overflow: hidden; 
+    display: inline-block;
     padding: 30px; 
     max-width: 600px; 
     width: 80%;  
@@ -1074,8 +1077,11 @@ footer{
     border: 2px solid black;
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
     background-image: linear-gradient(144deg, var(--base-variant), var(--linear-variant) 50%, rgb(146, 229, 237));
+    transition: 0.5 ease;
 }
 .about-mobile-b{
+    flex: 1;
+    align-items: stretch;
     padding: 30px;
     max-width: 600px;
     width: 80%;  
@@ -1085,6 +1091,7 @@ footer{
     border: 2px solid black;
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
     background-image: linear-gradient(144deg, var(--base-variant), var(--linear-variant) 50%, rgb(146, 229, 237));
+    transition: 0.5 ease;
 }
 
 

@@ -310,13 +310,15 @@ nav{
     background-color: var(--skill-stack);
     color: #2c0404;
     border-radius: 14px;
-    transition: 0.5;
+    /* transition: 0.5; */
+    transition: 0.3s ease-out;
 }
 .hero-btns button:hover{
     /* background-color: #dda1aa; */
     background-color: var(--form-color);
     border: 1px solid white;
     color: var(--text-color);;
+    transition: 0.3s ease-out;
 }
 #about{
     display: flex;
@@ -835,6 +837,11 @@ footer{
     #aboutt{
         display: none;
     }
+    #first-section{
+        margin-top: 0px;
+        margin-left: 0px;
+        padding: 0px;
+    }
     .xx{
         display: none;
     }
@@ -956,6 +963,9 @@ footer{
     #web-dev-img{
         width: 60px;
     }
+    .about-mobile{
+        display: none;
+    }
 }
 @media (max-width: 768px) {
     header {
@@ -1012,4 +1022,66 @@ footer{
     #about{
         display: none;
     }
+}
+
+
+
+
+
+
+
+
+
+.about-mobile{
+    /* width: 870px; */
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    place-self: center;
+    gap: 20px;
+    /* background-color: var(--about-section); */
+}
+.about-mobile h4{
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--text-color);
+}
+.about-mobile-a{
+    /* padding: 20px; */
+    /* width: 400px; */
+    /* height: 254px; */
+    border-radius: 20px;
+    /* padding: 5px; */
+    border: 2px solid black;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg, var(--base-variant), var(--linear-variant) 50%, rgb(146, 229, 237));
+}
+.about-mobile-b{
+    padding: 50px;
+    width: 400px;
+    height: 254px;
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid black;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg, var(--base-variant), var(--linear-variant) 50%, rgb(146, 229, 237));
+}
+
+
+
+
+
+
+
+#contact{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#h1{
+    color: white;
 }

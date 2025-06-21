@@ -869,7 +869,8 @@ footer{
         gap: 10px;
     }
     .hero-btns button{
-        height: 27px;
+        /* height: 27px; */
+        height: 32px;
         width: 100px;
         font-size: 10px;
     }

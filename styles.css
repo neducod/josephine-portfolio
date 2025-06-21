@@ -1050,21 +1050,24 @@ footer{
     color: var(--text-color);
 }
 .about-mobile-a{
-    /* padding: 20px; */
-    /* width: 400px; */
-    /* height: 254px; */
+    padding: 30px; 
+    max-width: 600px; 
+    width: 80%;  
+    margin: auto;
+    box-sizing: border-box;
+    font-size: clamp(1rem, 2vw, 1.5rem);
     border-radius: 20px;
-    /* padding: 5px; */
     border: 2px solid black;
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
     background-image: linear-gradient(144deg, var(--base-variant), var(--linear-variant) 50%, rgb(146, 229, 237));
 }
 .about-mobile-b{
-    padding: 50px;
-    width: 400px;
-    height: 254px;
+    padding: 30px;
+    max-width: 600px;
+    width: 80%;  
+    margin: auto;
+    /* height: 254px; */
     border-radius: 20px;
-    padding: 5px;
     border: 2px solid black;
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
     background-image: linear-gradient(144deg, var(--base-variant), var(--linear-variant) 50%, rgb(146, 229, 237));

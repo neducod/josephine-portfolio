@@ -1023,7 +1023,20 @@ footer{
         display: none;
     }
 }
-
+@media (min-width: 855px) and (max-width: 1071px) {
+    .about-mobile{
+        display: none;
+    }
+    .about-mobile h4{
+        display: none;
+    }
+    .about-mobile-a{
+        display: none;
+    }
+    .about-mobile-b{
+        display: none;
+    }
+}
 
 
 
@@ -1034,6 +1047,7 @@ footer{
 
 .about-mobile{
     /* width: 870px; */
+    margin: 40px;
     display: grid;
     place-items: center;
     justify-content: center;

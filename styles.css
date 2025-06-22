@@ -824,6 +824,7 @@ footer{
 .hamburger svg{
     background-color: pink;
 }
+/*
 @media (max-width: 480px) {
     body{
         max-width: 480px;
@@ -833,7 +834,6 @@ footer{
     }
     nav{
         gap: 200px;
-        /* gap: 250px;  */
     }
     .nav-h h1 a{
         font-size: 0.8rem;
@@ -874,10 +874,7 @@ footer{
         height: 32px;
         width: 100px;
         font-size: 10px;
-    }/*
-    .about-mobile{
-        display: block !important;
-    }*/
+    }
     #about{
         display: none; 
     }
@@ -930,17 +927,19 @@ footer{
     .social-icons{
         font-size: 5px;
     }
-} /*
-@media (min-width: 481px) {
-    .about-mobile {
-      display: none;
-    }
-}*/
+    /*
+    .about-mobile{
+        display: block !important;
+    }*
+}
+*/
+/*
 @media (min-width: 481px) and (max-width: 606px) {
     .hero{
         flex-direction: column;
     }
-}
+}*/
+/*
 @media (min-width: 607px) and (max-width: 614px) {
     .dp{
         width: 100px;
@@ -952,6 +951,8 @@ footer{
         display: none;
     }
 }
+*/
+/*
 @media (max-width: 768px) {
     header {
         padding: 30px 20px;
@@ -989,6 +990,8 @@ footer{
         display: block !important;
     }
 }
+*/
+/*
 @media (min-width: 711px) and (max-width: 783px) {
     nav{
         gap: 280px;
@@ -1000,6 +1003,8 @@ footer{
         display: block !important;
     }
 }
+*/
+/*
 @media (min-width: 784px) and (max-width: 796px) {
     nav{
         gap: 140px;
@@ -1011,7 +1016,8 @@ footer{
         display: block !important;
     }
 }
-
+*/
+/*
 @media (min-width: 797px) and (max-width: 848px){
     #about{
         display: none;
@@ -1029,6 +1035,7 @@ footer{
         display: block;
     }
 }
+*/
 /*
 @media (min-width: 849px) and (max-width: 1071px) {
     .about-mobile{
@@ -1054,7 +1061,7 @@ footer{
 
 
 
-
+/*
 .about-mobile{
     margin: 40px; 
     display: flex;
@@ -1107,10 +1114,7 @@ footer{
     background-image: linear-gradient(144deg, var(--base-variant), var(--linear-variant) 50%, rgb(146, 229, 237));
     transition: 0.5 ease;
 }
-
-
-
-
+*/
 
 
 #contact{

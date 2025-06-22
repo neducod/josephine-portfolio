@@ -832,7 +832,30 @@ footer{
     max-width: 600px;
     width: 80%;
     margin: auto;
+    padding: 5px;
     background-color: var(--linear-variant);
+}
+#h1{
+    color: var(--text-color);
+    font-family: "Patrick Hand SC", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+#p1{
+    color: var(--text-color);
+    font-family: "Baloo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+.p1{
+    color: var(--text-color);
+    font-family: "Baloo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center; 
 }
 #contact-form{
     --input-focus: #2d8cf0;

@@ -834,11 +834,11 @@ footer{
     margin: auto;
     margin-bottom: 30px;
     padding: 5px;
-    background-color: var(--linear-variant);
-
-
-    box-shadow: 4px 4px var(--main-color);
-    border: 5px solid var(--main-color);
+    background-color: var(--skill-stack);
+    /* box-shadow: 4px 4px var(--main-color); */
+    box-shadow: 4px 4px black;
+    border: 5px solid black;
+    /* border: 5px solid var(--main-color); */
 }
 #h1{
     color: var(--text-color);
@@ -878,6 +878,7 @@ footer{
     border-radius: 5px;
     border: 2px solid var(--main-color);
     box-shadow: 4px 4px var(--main-color);
+    width: 500px;
 }
 .input{
     /* max-width: 250px; */
@@ -886,7 +887,8 @@ footer{
     height: 40px;
     border-radius: 5px;
     border: 2px solid var(--main-color);
-    background-color: var(--bg-color);
+    /* background-color: var(--bg-color); */
+    background-color: var(--header-color);
     box-shadow: 4px 4px var(--main-color);
     font-size: 15px;
     font-weight: 600;

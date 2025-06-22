@@ -838,9 +838,6 @@ footer{
     .nav-h h1 a{
         font-size: 0.8rem;
     }
-    #aboutt{
-        display: none;
-    }
     #first-section{
         margin-top: 0px;
         margin-left: 0px;
@@ -877,10 +874,10 @@ footer{
         height: 32px;
         width: 100px;
         font-size: 10px;
-    }
+    }/*
     .about-mobile{
-        display: block;
-    }
+        display: block !important;
+    }*/
     #about{
         display: none; 
     }
@@ -933,7 +930,12 @@ footer{
     .social-icons{
         font-size: 5px;
     }
-} 
+} /*
+@media (min-width: 481px) {
+    .about-mobile {
+      display: none;
+    }
+}*/
 @media (min-width: 481px) and (max-width: 606px) {
     .hero{
         flex-direction: column;
@@ -983,6 +985,9 @@ footer{
     #about{
         display: none;
     }
+    .about-mobile{
+        display: block !important;
+    }
 }
 @media (min-width: 711px) and (max-width: 783px) {
     nav{
@@ -990,6 +995,9 @@ footer{
     }
     #about{
         display: none;
+    }
+    .about-mobile{
+        display: block !important;
     }
 }
 @media (min-width: 784px) and (max-width: 796px) {
@@ -999,6 +1007,9 @@ footer{
     #about{
         display: none;
     }
+    .about-mobile{
+        display: block !important;
+    }
 }
 
 @media (min-width: 797px) and (max-width: 848px){
@@ -1006,7 +1017,7 @@ footer{
         display: none;
     }
     .about-mobile{
-        display: block;
+        display: block !important;
     }
     .about-mobile h4{
         display: block;
@@ -1045,7 +1056,7 @@ footer{
 
 
 .about-mobile{
-    margin: 40px;
+    margin: 40px; 
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -1054,6 +1065,7 @@ footer{
     align-items: center;
     place-self: center;
     gap: 20px;
+    margin-left: 110px;
 }
 .about-mobile h4{
     font-family: "Noto Sans JP", sans-serif;

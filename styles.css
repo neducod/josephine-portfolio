@@ -671,11 +671,11 @@ nav{
     color: var(--text-color);
 }
 .skillstack{
-    display: grid;
+   /* display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 16px;
-    padding: 16px;
-    /*display: flex;
+    padding: 16px;*/
+    display: flex;
     flex-direction: column;
     gap: 30px;
     justify-content: center;
@@ -683,7 +683,7 @@ nav{
     width: 100%;
     box-sizing: border-box;
     padding: 2rem;
-    margin: 4rem auto;*/
+    margin: 4rem auto;
 }
 .skillstack img{
     height: auto;
@@ -699,7 +699,6 @@ nav{
 }        
 footer{
     padding: 30px 40px;
-    /* background-color: rgb(249, 235, 235); */
     background-color: var(--footer-color);
 }
 #footer-icons{
@@ -823,6 +822,72 @@ footer{
 }
 .hamburger svg{
     background-color: pink;
+}
+
+#contact-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 600px;
+    width: 80%;
+    margin: auto;
+    background-color: var(--linear-variant);
+}
+#contact-form{
+    --input-focus: #2d8cf0;
+    --font-color: #323232;
+    --font-color-sub: #666;
+    --bg-color: #fff;
+    --main-color: #323232;
+    padding: 20px;
+    background: lightgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    box-shadow: 4px 4px var(--main-color);
+}
+.input{
+    /* max-width: 250px; */
+    max-width: 400px;
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    border: 2px solid var(--main-color);
+    background-color: var(--bg-color);
+    box-shadow: 4px 4px var(--main-color);
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--font-color);
+    padding: 5px 10px;
+    outline: none;
+}
+.input::placeholder{
+    color: var(--text-color);
+}
+.input:focus{
+    border: 2px solid pink;
+}
+.contact-btn{
+    width: 170px;
+    height: 42px;
+    border: 1px solid #2c0404;
+    background-color: var(--skill-stack);
+    color: #2c0404;
+    border-radius: 14px;
+    transition: 0.3s ease-out;
+}
+.contact-img-wrapper{
+    display: flex;
+    margin: 20px;
+    gap: 10px;
+}
+.contact-img{
+    width: 25px;
 }
 /*
 @media (max-width: 480px) {
@@ -1115,14 +1180,3 @@ footer{
     transition: 0.5 ease;
 }
 */
-
-
-#contact{
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-#h1{
-    color: white;
-}

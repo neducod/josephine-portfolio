@@ -832,8 +832,13 @@ footer{
     max-width: 600px;
     width: 80%;
     margin: auto;
+    margin-bottom: 30px;
     padding: 5px;
     background-color: var(--linear-variant);
+
+
+    box-shadow: 4px 4px var(--main-color);
+    border: 5px solid var(--main-color);
 }
 #h1{
     color: var(--text-color);

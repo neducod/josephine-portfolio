@@ -1100,9 +1100,31 @@ footer{
     }
     #nav-links{
         display: none;
+
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem 0;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    #nav-links ul{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    #nav-links.show {
+        display: flex;
     }
     .hamburger{
         display: block;
+    }
+    #theme-switch{
+        width: 30px;
+        place-self: center;
     }
 }
 

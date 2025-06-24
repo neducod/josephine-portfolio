@@ -348,13 +348,17 @@ nav{
 }
 .about-text{
     width: 870px;
-    display: grid;
-    place-items: center;
+    /* display: grid; */
+    /* place-items: center; */
+    display: flex;
+
+    flex-wrap: wrap;
     /* background-color: #ffe0f0; */
      /* background-color: rgb(249, 235, 235);  */
     background-color: var(--about-section);
 }
 .first-section{
+    /*
     padding: 50px;
     width: 400px;
     height: 254px;
@@ -363,7 +367,7 @@ nav{
     border: 2px solid black;
     box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
     background-image: linear-gradient(144deg, var(--base-variant), var(--linear-variant) 50%, rgb(146, 229, 237));
-    margin-bottom: 60px;
+    margin-bottom: 60px;*/
 }
 .first-section p{
    /* font-family: "Baloo 2", sans-serif;
@@ -411,13 +415,14 @@ nav{
     /* display: flex; */
     gap: 40px;
     /* flex-direction: row; */
-    padding-left: 100px;
-    margin-top: 100px;
+    padding-left: 200px;
+    margin-top: 200px;
     margin-bottom: 100px;
     color: var(--text-color);
+    margin: 180px;
 }
 #projects{
-    text-align: center;
+    text-align: center; 
     padding: 40px;
 }
 .projects{
@@ -642,9 +647,8 @@ nav{
   }
 #skillstack{
     gap: 40px;
-    /*
-    margin-top: 100px;
-    margin-bottom: 100px;*/
+    margin-top: 200px;
+    margin-bottom: 200px;
     width: 80%;
     max-width: 850px;
     place-self: center;

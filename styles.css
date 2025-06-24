@@ -832,7 +832,8 @@ footer{
     /* background-color: var(--text-color); */
 }
 .hamburger svg{
-    background-color: pink;
+    /* background-color: pink; */
+    background-color: var(--form-color);
 }
 
 #contact-me{
@@ -912,7 +913,7 @@ footer{
     font-size: 15px;
     font-weight: 600;
     color: var(--font-color);
-    padding: 5px 10px;
+    padding: 8px 30px;
     outline: none;
 }
 .input::placeholder{

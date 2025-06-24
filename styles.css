@@ -929,7 +929,32 @@ footer{
 .contact-img{
     width: 25px;
 }
-
+#about-mobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* text-align: center; */
+}
+#about-mobile h4{
+    text-align: center;
+}
+.about-mobile-a{
+    background-color: var(--black-pink);
+    width: 80%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+.about-mobile-aa{
+    background-color: var(--black-pink);
+    width: 80%;
+    max-width: 600px;
+    margin: auto;
+}
 @media (max-width: 480px) {
     body{
         max-width: 480px;
@@ -1031,6 +1056,12 @@ footer{
     }
     .social-icons{
         font-size: 5px;
+    }  
+    #about-mobile{
+        display: block !important;
+    }
+    #contact-form{
+        width: 80%;
     }
 }
 

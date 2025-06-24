@@ -20,6 +20,8 @@
     --black-pink: rgb(143, 142, 142);
     --header-boxshadow: white;
     --header-color: rgb(13, 13, 14);
+    --svg: rgb(25, 50, 90);
+    --svg-two: black;
     /*
     --base-color:  rgb(252, 208, 215);
     --text-color: black;
@@ -59,6 +61,8 @@ body{
     --black-pink: pink;
     /* --header-boxshadow: rgba(0, 0, 0.6); */
     --header-color: rgb(249, 235, 235);
+    --svg: rgb(255, 192, 203);
+    --svg-two: white;
     /*
     --base-color: #000000;
     --text-color: rgb(255, 255, 255);
@@ -833,7 +837,7 @@ footer{
 }
 .hamburger svg{
     /* background-color: pink; */
-    background-color: var(--form-color);
+    background-color: var(--svg);
 }
 
 #contact-me{
@@ -1105,7 +1109,8 @@ footer{
         top: 100%;
         left: 0;
         right: 0;
-        background: #fff;
+        /* background: #fff; */
+        background-color: var(--svg-two);
         display: none;
         flex-direction: column;
         text-align: center;

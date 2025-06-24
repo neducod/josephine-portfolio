@@ -930,30 +930,41 @@ footer{
     width: 25px;
 }
 #about-mobile{
-    display: flex;
+   /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: auto;
     flex-wrap: wrap;
-    gap: 20px;
-    /* text-align: center; */
+    gap: 20px;*/
+    padding: 10px;
 }
 #about-mobile h4{
     text-align: center;
+    margin-top: 10px;
 }
 .about-mobile-a{
     background-color: var(--black-pink);
     width: 80%;
     max-width: 600px;
-    margin-bottom: 20px;
     margin: auto;
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid black;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg, var(--base-variant), var(--linear-variant) 50%, rgb(146, 229, 237));
 }
 .about-mobile-aa{
     background-color: var(--black-pink);
     width: 80%;
     max-width: 600px;
     margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid black;
+    box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+    background-image: linear-gradient(144deg, var(--base-variant), var(--linear-variant) 50%, rgb(146, 229, 237));
 }
 @media (max-width: 480px) {
     body{

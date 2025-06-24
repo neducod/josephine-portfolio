@@ -646,11 +646,11 @@ nav{
     }
   }
 #skillstack{
-    gap: 40px;
-    margin-top: 200px;
-    margin-bottom: 200px;
+    /* gap: 40px; */
+    /* margin-top: 200px; */
+    /* margin-bottom: 200px; */
 
-    margin: auto;
+    margin: 100px auto;
     width: 80%;
     max-width: 850px;
     place-self: center;
@@ -694,6 +694,7 @@ nav{
     width: 90%;
     max-width: 800px;
     /* margin: auto;    */
+    /* margin-bottom: 300px; */
 }
 .skillstack img{
     height: auto;
@@ -835,6 +836,8 @@ footer{
 }
 
 #contact-me{
+
+
     display: flex;
     flex-direction: column;
     justify-content: center;

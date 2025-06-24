@@ -649,6 +649,8 @@ nav{
     gap: 40px;
     margin-top: 200px;
     margin-bottom: 200px;
+
+    margin: auto;
     width: 80%;
     max-width: 850px;
     place-self: center;

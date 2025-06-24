@@ -419,6 +419,7 @@ nav{
     margin-top: 200px;
     margin-bottom: 100px;
     color: var(--text-color);
+    margin: 200px; 
 }
 #projects{
     text-align: center; 
@@ -1069,6 +1070,7 @@ footer{
     }
     #projects{
         margin-top: 40px;
+        margin: 0;
     }
     footer{
         display: block;

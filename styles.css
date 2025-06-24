@@ -896,6 +896,8 @@ footer{
     /* padding: 100px; */
     width: 500px;
     padding: 20px;
+
+    margin: auto;
 }
 .input{
     /* max-width: 250px; */

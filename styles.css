@@ -1085,6 +1085,12 @@ footer{
     #contact-form{
         width: 80%;
     }
+    #nav-links{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
 }
 
 /*

@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 :root{
     --base-color: #000000;
@@ -971,6 +972,9 @@ footer{
     background-image: linear-gradient(144deg, var(--base-variant), var(--linear-variant) 50%, rgb(146, 229, 237));
 }
 @media (max-width: 480px) {
+    #test{
+        display: block;
+    }
     body{
         max-width: 480px;
     }

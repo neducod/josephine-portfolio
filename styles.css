@@ -929,7 +929,7 @@ footer{
 .contact-img{
     width: 25px;
 }
-/*
+
 @media (max-width: 480px) {
     body{
         max-width: 480px;
@@ -1032,12 +1032,8 @@ footer{
     .social-icons{
         font-size: 5px;
     }
-    /*
-    .about-mobile{
-        display: block !important;
-    }*
 }
-*/
+
 /*
 @media (min-width: 481px) and (max-width: 606px) {
     .hero{

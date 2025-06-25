@@ -15,17 +15,18 @@ gsap.from(".box", {
     setTimeout(() => {
       popup.style.display = 'none';
     }, 5000);
-  };
+};
+
+
 
 //NAVBAR RESPONSIVE
-
 const hamburger = document.getElementById('hamburger');
 const navLinks = document.getElementById('nav-links');
 
 hamburger.addEventListener('click', () => {
   navLinks.classList.toggle('show');
 });
-
+//
 
 
 

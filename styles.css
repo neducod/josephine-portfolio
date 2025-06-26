@@ -444,17 +444,14 @@ nav{
 .form {
     width: 300px;
     height: 350px;
-    /* --input-focus: #2d8cf0; */
     --font-color: #323232;
     --font-color-sub: #666;
     --bg-color: beige;
     --main-color: black;
     padding: 20px;
     background: var(--form-color); 
-    /* background-color: rgb(221, 161, 171); */
     display: flex;
     flex-direction: column;
-    /* align-items: flex-start; */
     align-items: center;
     justify-content: center;
     gap: 20px;
@@ -466,7 +463,6 @@ nav{
     --font-color: #323232;
     --font-color-sub: #666;
     --bg-color: beige;
-    /* --main-color: black;  */
     padding: 20px;
     background: var(--form-two);
     border: 2px solid var(--main-color);  
@@ -475,6 +471,9 @@ nav{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    width: 300px;
+    height: 350px;
 }
 #slideshow-container{
     max-width: 1000px;
@@ -925,7 +924,7 @@ footer{
     outline: none;
 }
 .input::placeholder{
-    color: var(--text-color);
+    /* color: var(--text-color); */
 }
 .input:focus{
     border: 2px solid pink;
@@ -934,7 +933,6 @@ footer{
     max-width: 400px;
     width: 80%;
     height: 200px; 
-
 
     border-radius: 5px;
     border: 2px solid var(--main-color);
@@ -1259,6 +1257,9 @@ footer{
     #contact-form{
         /* width: 80%; */
         width: 110%;
+    }
+    .formm{
+        padding: 15px;
     }
 }
 /*

@@ -902,8 +902,9 @@ footer{
     box-shadow: 4px 4px var(--main-color);
     /* width: 80%; */
     /* padding: 100px; */
-    width: 500px;
-    padding: 20px;
+    /* max-width: 500px; */
+    width: 550px;
+    /* width: 80%; */
 
     margin: auto;
 }
@@ -932,7 +933,9 @@ footer{
 .message{
     max-width: 400px;
     width: 80%;
-    height: 200px;
+    height: 200px; 
+
+
     border-radius: 5px;
     border: 2px solid var(--main-color);
     /* background-color: var(--bg-color); */
@@ -1213,7 +1216,7 @@ footer{
     #about{
         display: none; 
     }
-        .first-section{
+    .first-section{
         max-width: 400px;
         height: 200px;
     }
@@ -1225,7 +1228,6 @@ footer{
         width: 90%;
         box-sizing: border-box;
     }
-
     #first-section-b{
         margin-right: none;
         padding: 20px; 
@@ -1250,6 +1252,13 @@ footer{
     }
     .first-sectionn p{
         font-size: 10px;
+    }
+    .message{
+        height: 150px; 
+    }
+    #contact-form{
+        /* width: 80%; */
+        width: 110%;
     }
 }
 /*
